@@ -214,7 +214,7 @@ def main(generate_input, generate_output):
     with open(generate_input, "r") as reader:
         data = json.load(reader)
 
-    _LOGGER.error(f"[ERROR] test error generate python sdk")
+    _LOGGER.error(f"test error generate python sdk")
     spec_folder = data["specFolder"]
     sdk_folder = "."
     result = {}
